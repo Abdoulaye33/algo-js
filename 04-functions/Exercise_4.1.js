@@ -7,13 +7,13 @@ const readlineSync = require('readline-sync');
  * @returns {number} The surface of the rectangle.
  */
 
-function calcSurface(length, width) {
-  return length * width;
-}
+function calcSurface (length, width) {
+    return length * width;
+};
 
-const length = readlineSync.questionFloat('Enter the length of the rectangle: ');
-const width = readlineSync.questionFloat('Enter the width of the rectangle: ');
+const length = readlineSync.questionFloat('Enter the length of the rectangle');
+const width = readlineSync.questionFloat('Enter the width of the rectangle');
 
 const surface = calcSurface(length, width);
 
-console.log('Ton Heure de Jeu Sur Afs:', surface);
+console.log('Ton Heure de Jeu sur Afs' + surface);
