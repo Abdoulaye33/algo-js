@@ -44,4 +44,4 @@ while (!exit) {
 		exit = !exit;
 	}
 }
-console.log("You leave the program!"
+console.log("You leave the program!")
