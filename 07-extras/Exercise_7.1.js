@@ -13,7 +13,7 @@ while (true) {
   } else if (guess > randomNumber) {
     console.log('Too high');
   } else {
-    console.log('Well guessed!');
+    console.log('Well guessed');
     break;
   }
 }
