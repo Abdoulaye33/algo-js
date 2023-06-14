@@ -15,4 +15,4 @@ const secondSection = document.getElementById("second");
 
 const h2Second = secondSection.children[0];
 
-h2Third.appendChild(h2Second);
+h2Third.appendChild(h2Second)
