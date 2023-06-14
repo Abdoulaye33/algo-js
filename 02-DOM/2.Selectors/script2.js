@@ -15,3 +15,15 @@ const imgImportant = document.querySelectorAll("img");
         img.style.display = "none";
     }
     });
+
+
+const parag = document.querySelectorAll("p");
+
+parag.forEach(parag => {
+    console.log("Contenu du paragraphe :", parag.textContent);
+      
+    if (parag.classList.length > 0) {
+        console.log("Classe du paragraphe :", parag.classList);
+    }
+});
+    
