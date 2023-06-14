@@ -26,4 +26,16 @@ parag.forEach(parag => {
         console.log("Classe du paragraphe :", parag.classList);
     }
 });
-    
+
+
+parag.forEach(parag => {
+    if(parag.classList.length < 0) {
+        parag.style = "display: block";
+    }
+    else (parag.classList.length > 0); {
+        parag.style.color = "rgb(" + randomNum(0, 255) + ", " + randomNum(0, 255) + ", " + randomNum(0, 255) + ")"
+    }
+    function randomNum(min, max) {
+        return parseInt(Math.random() * (Math.floor(max) - Math.ceil(min)) + Math.ceil(min))
+    }
+});
