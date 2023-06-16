@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
             li.style.visibility = 'hidden';
           }
         } else {
-          li.style.visibility = 'visible';
+          li.style.visibility = 'visible'
         }
       }
     });
